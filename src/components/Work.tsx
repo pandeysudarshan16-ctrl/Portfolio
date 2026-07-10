@@ -23,7 +23,7 @@ const projects = [
     tools: "AI",
     description:
       "An AI-powered study companion that provides personalized learning experiences, helping students grasp complex concepts and excel academically.",
-    link: "https://edunest-ai.vercel.app",
+    link: "https://edunest-nine.vercel.app/",
   },
   {
     title: "Hackathon Project: AI-SOC-LITE",
