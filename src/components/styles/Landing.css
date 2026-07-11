@@ -256,6 +256,12 @@
   font-weight: 300;
   color: var(--accentColor);
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-info-subtitle span {
+  white-space: nowrap;
 }
 
 .landing-info h2 {
