@@ -1,12 +1,6 @@
-import { useEffect } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./styles/About.css";
 
 const About = () => {
-  useEffect(() => {
-    ScrollTrigger.refresh();
-  }, []);
-
   return (
     <div className="about-section" id="about">
       <div className="about-me">

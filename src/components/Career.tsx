@@ -1,12 +1,6 @@
-import { useEffect } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./styles/Career.css";
 
 const Career = () => {
-  useEffect(() => {
-    ScrollTrigger.refresh();
-  }, []);
-
   return (
     <div className="career-section section-container">
       <div className="career-container">

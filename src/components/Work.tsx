@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./styles/Work.css";
 
 const projects = [
@@ -38,10 +36,6 @@ const projects = [
 ];
 
 const Work = () => {
-  useEffect(() => {
-    ScrollTrigger.refresh();
-  }, []);
-
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">

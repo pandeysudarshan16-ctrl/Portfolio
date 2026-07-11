@@ -9,11 +9,9 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-intro">
             <div className="landing-profile-container">
               <img
-                src="/images/mypic.webp"
+                src="/images/mypic.jpeg"
                 alt="Sudarshan Pandey – Computer Science & Data Analytics Student at IIT Patna"
                 className="landing-profile-photo"
-                width="110"
-                height="110"
               />
               <div className="landing-intro-text">
                 <p className="landing-hello">Hello! I'm</p>
