@@ -25,6 +25,11 @@
   gap: 40px;
   padding: 30px 0;
   border-bottom: 1px solid #2a2a2a;
+  transition: border-color 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: rgba(94, 234, 212, 0.25);
 }
 
 /* NUMBER */
@@ -33,6 +38,11 @@
   opacity: 0.2;
   font-weight: 600;
   min-width: 60px;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-number {
+  opacity: 0.5;
 }
 
 /* CONTENT */
@@ -48,11 +58,12 @@
 .project-content h3 a {
   text-decoration: none;
   color: white;
-  transition: 0.3s;
+  transition: color 0.25s ease, letter-spacing 0.25s ease;
 }
 
 .project-content h3 a:hover {
   color: var(--accentColor);
+  letter-spacing: 0.5px;
 }
 
 /* CATEGORY */
@@ -80,15 +91,17 @@
 .project-btn {
   display: inline-block;
   padding: 6px 14px;
-  border: 1px solid white;
+  border: 1px solid rgba(255,255,255,0.4);
   text-decoration: none;
   font-size: 14px;
-  transition: 0.3s;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
 .project-btn:hover {
   background: white;
   color: black;
+  border-color: white;
+  transform: translateY(-2px);
 }
 
 /* RESPONSIVE */

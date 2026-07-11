@@ -40,15 +40,21 @@ body {
 a {
   color: inherit;
   text-decoration: inherit;
+  transition: color 0.25s ease;
 }
 
 a:hover {
   color: var(--accentColor);
 }
 
+::selection {
+  background-color: rgba(94, 234, 212, 0.2);
+  color: var(--accentColor);
+}
+
 main {
   opacity: 1;
-  transition: 0.3s;
+  transition: opacity 0.3s ease;
 }
 
 .main-active {
