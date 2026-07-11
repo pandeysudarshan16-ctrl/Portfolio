@@ -8,6 +8,7 @@ const WhatIDo = () => {
     containerRef.current[index] = el;
   };
   useEffect(() => {
+    ScrollTrigger.refresh();
     if (ScrollTrigger.isTouch) {
       containerRef.current.forEach((container) => {
         if (container) {

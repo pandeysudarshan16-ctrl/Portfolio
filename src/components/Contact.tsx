@@ -1,7 +1,13 @@
+import { useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
+  useEffect(() => {
+    ScrollTrigger.refresh();
+  }, []);
+
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
