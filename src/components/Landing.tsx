@@ -7,12 +7,21 @@ const Landing = ({ children }: PropsWithChildren) => {
       <div className="landing-section" id="landingDiv">
         <div className="landing-container">
           <div className="landing-intro">
-            <h2>Hello! I'm</h2>
-            <h1>
-              SUDARSHAN
-              <br />
-              <span>PANDEY</span>
-            </h1>
+            <div className="landing-profile-container">
+              <img
+                src="/images/mypic.jpeg"
+                alt="Sudarshan Pandey – Computer Science & Data Analytics Student at IIT Patna"
+                className="landing-profile-photo"
+              />
+              <div className="landing-intro-text">
+                <h2>Hello! I'm</h2>
+                <h1>
+                  SUDARSHAN
+                  <br />
+                  <span>PANDEY</span>
+                </h1>
+              </div>
+            </div>
           </div>
           <div className="landing-info">
             <h3>AI & Data Engineering</h3>
