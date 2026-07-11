@@ -5,10 +5,10 @@ const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <div className="contact-flex">
           <div className="contact-box">
-           <h4>Let’s Connect</h4>
+           <h3>Let’s Connect</h3>
             <p>
               Open to collaborations, projects, and building impactful systems.
             </p>
@@ -22,13 +22,13 @@ const Contact = () => {
                 LinkedIn — Sudarshan Pandey
               </a>
             </p>
-            <h4>Education</h4>
+            <h3>Education</h3>
             <p>
              Computer Science & Data Analytics, IIT Patna – Pursuing
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h3>Social</h3>
             <a
               href="https://github.com/pandeysudarshan16-ctrl"
               target="_blank"
@@ -58,12 +58,12 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
+            <p className="contact-designer">
               Designed and Developed <br /> by <span>Sudarshan Pandey</span>
-            </h2>
-            <h5>
+            </p>
+            <p className="contact-copyright">
               <MdCopyright /> 2026
-            </h5>
+            </p>
           </div>
         </div>
       </div>

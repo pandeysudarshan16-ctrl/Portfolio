@@ -220,7 +220,7 @@
 }
 
 
-.landing-intro h2 {
+.landing-hello {
   margin: 0;
   color: var(--accentColor);
   font-size: 22px;
@@ -250,7 +250,7 @@
   z-index: 9;
 }
 
-.landing-info h3 {
+.landing-info-subtitle {
   font-size: 22px;
   letter-spacing: 2px;
   font-weight: 300;
@@ -316,11 +316,11 @@ h2.landing-info-h2 {
     z-index: 0;
   }
 
-  .landing-info h3 {
+  .landing-info-subtitle {
     font-size: 18px;
   }
 
-  .landing-intro h2 {
+  .landing-hello {
     font-size: 18px;
   }
 
@@ -344,7 +344,7 @@ h2.landing-info-h2 {
     height: 80vh;
   }
 
-  .landing-intro h2 {
+  .landing-hello {
     font-size: 25px;
   }
 
@@ -353,7 +353,7 @@ h2.landing-info-h2 {
     line-height: 35px;
   }
 
-  .landing-info h3 {
+  .landing-info-subtitle {
     font-size: 25px;
   }
 
@@ -418,7 +418,7 @@ h2.landing-info-h2 {
 }
 
 @media screen and (min-width: 1600px) {
-  .landing-intro h2 {
+  .landing-hello {
     font-size: 35px;
   }
 
@@ -427,7 +427,7 @@ h2.landing-info-h2 {
     line-height: 55px;
   }
 
-  .landing-info h3 {
+  .landing-info-subtitle {
     font-size: 35px;
   }
 

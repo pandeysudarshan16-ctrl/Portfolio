@@ -32,7 +32,7 @@ export function initialFX() {
   // Wrap SplitText animations inside document.fonts.ready to ensure correct layout calculations
   document.fonts.ready.then(() => {
     var landingText = new SplitText(
-      [".landing-info h3", ".landing-intro h2", ".landing-intro h1"],
+      [".landing-info-subtitle", ".landing-hello", ".landing-intro h1"],
       {
         type: "chars,lines",
         linesClass: "split-line",

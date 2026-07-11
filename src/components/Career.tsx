@@ -8,12 +8,12 @@ const Career = () => {
           My career <span>&</span>
           <br /> experience
         </h2>
-        <div className="career-info-flex">
+        <div className="career-info career-info-flex">
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>AI & Data Engineering Enthusiast</h4>
-                <h5>IIT Patna </h5>
+                <h3>AI & Data Engineering Enthusiast</h3>
+                <h4>IIT Patna </h4>
               </div>
               <h3>Now</h3>
             </div>
@@ -26,8 +26,8 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Hackathon Participant</h4>
-                <h5>Competitive Development</h5>
+                <h3>Hackathon Participant</h3>
+                <h4>Competitive Development</h4>
               </div>
               <h3>2025-2026</h3>
             </div>
