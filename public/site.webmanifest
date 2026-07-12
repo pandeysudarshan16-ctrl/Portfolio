@@ -1,0 +1,33 @@
+{
+  "name": "Sudarshan Pandey Portfolio",
+  "short_name": "Sudarshan Pandey",
+  "description": "Portfolio of Sudarshan Pandey, an AI Developer and Full Stack Developer from IIT Patna.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050810",
+  "theme_color": "#0a0e17",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "maskable",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
